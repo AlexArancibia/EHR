@@ -11,8 +11,8 @@ import TabsMovil from "~/components/ServicesMovil";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "EHR" },
+    { name: "description", content: "Tu Socio Estrategico" },
   ];
 };
 
