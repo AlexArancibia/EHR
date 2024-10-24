@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos generales para el HTML y el body */
+html, body {
+  @apply text-neutral font-sans leading-relaxed;
+}
+
+/* Títulos principales (h1) */
+h1 {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold   tracking-wide;
+}
+
+/* Títulos secundarios (h2) */
+h2 {
+  @apply text-2xl md:text-3xl lg:text-4xl font-semibold   tracking-wider;
+}
+
+/* Estilo general para párrafos */
+p {
+  @apply text-base text-neutral leading-relaxed;
+}
+
+/* Botones principales */
+.btn-primary {
+  @apply bg-primary text-white font-bold py-2 px-4 rounded-lg hover:bg-accent;
+}
+
+/* Botones secundarios */
+.btn-secondary {
+  @apply bg-secondary text-white font-bold py-2 px-4 rounded-lg hover:bg-accent;
+}
+
+/* Margen general para secciones */
+
+
+/* Enlaces */
+a {
+  @apply text-primary hover:underline;
+}
+
+/* Contenedores */
+.container-section {
+  @apply px-6 lg:px-8 xl:px-16;
+}
+
+.content-section {
+  @apply max-w-screen-2xl w-full mx-auto 
+}
+
+a:hover {
+  text-decoration-line: none;
+}
+li {
+  list-style: none;
+}
+
+.hero {
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) { /* Pantallas medianas */
+  .hero {
+    border-bottom-left-radius: 40% 15%;
+    border-bottom-right-radius: 40% 15%;
+  }
+}
+
+@media (max-width: 768px) { /* Pantallas pequeñas */
+  .hero {
+    border-bottom-left-radius: 30% 10%;
+    border-bottom-right-radius: 30% 10%;
+  }
+}
+
+@media (max-width: 480px) { /* Pantallas extra pequeñas */
+  .hero {
+    border-bottom-left-radius: 20% 5%;
+    border-bottom-right-radius: 20% 5%;
+  }
+}
+
+ 
