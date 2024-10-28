@@ -44,6 +44,7 @@ function CTA1() {
             "Transformamos desafíos en soluciones eficientes, concentrate <br />en lo que realmente importa:<br /> hacer crecer tu negocio."
           </h3>
           
+          
           {/* Para pantallas pequeñas, texto y imagen en el mismo div */}
           <div className="flex items-center justify-between lg:block">
             {/* Contenedor del texto en pantallas pequeñas */}
@@ -51,6 +52,7 @@ function CTA1() {
               <h3 className="font-bold hidden text-lg lg:text-lg">Nombre</h3>
               <h3 className="text-md hidden lg:text-md">Cargo</h3>
             </div>
+            <div id="estructura"></div>
 
             {/* Imagen en pantallas pequeñas */}
             <img 

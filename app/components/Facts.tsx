@@ -65,7 +65,7 @@ function Facts() {
   const duration = 3; // Duración total en segundos
 
   return (
-    <div className="container-section bg-background flex justify-center pt-16 pb-8">
+    <div  id='servicios' className="container-section bg-background flex justify-center pt-16 pb-8">
       <div
         className={`w-[100%] max-w-[700px] -mt-[100px] lg:-mt-[180px] z-20 bg-white rounded-3xl shadow-xl p-8 grid grid-cols-3 gap-4 md:gap-8 ${fadeInClass} ${transitionBase}`}
         ref={sectionRef}

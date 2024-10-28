@@ -31,7 +31,7 @@ function CTA2() {
   }, []);
 
   return (
-    <div id='estructura' ref={ref} className="container-section py-12 lg:py-24 bg-secondary">
+    <div id='estructura' ref={ref} className="container-section py-12 lg:py-28 bg-secondary">
       <div className={`content-section flex flex-wrap items-center transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
         
         {/* Imagen para pantallas grandes */}

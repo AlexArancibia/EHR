@@ -67,7 +67,7 @@ function Tabs() {
         <img src={flecha1} alt={`Imagen del flecha1`} className="absolute z-50 hidden lg:block -left-8" />
         <img src={flecha2} alt={`Imagen del flecha2`} className="absolute z-50 hidden lg:block -right-8 -top-10" />
       </div>
-    <div id='servicios' className="container-section pb-4 lg:py-16 bg-background ">
+    <div className="container-section pb-4  lg:py-24 bg-background ">
       <div className="content-section hidden lg:flex flex-col lg:flex-row">
         
         {/* Columna de tabs */}

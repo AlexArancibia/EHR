@@ -62,7 +62,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <motion.div
-      id='contactanos'
+      
       className="container-section py-16 px-4 lg:px-8 bg-gray-100"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
