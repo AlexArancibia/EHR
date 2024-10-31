@@ -11,7 +11,7 @@ import TabsMovil from "~/components/ServicesMovil";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "EHR" },
+    { title: "Estructura HR" },
     { name: "description", content: "Tu Socio Estrategico" },
   ];
 };
