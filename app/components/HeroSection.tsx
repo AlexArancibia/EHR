@@ -56,7 +56,7 @@ function HeroSection() {
             <div className='flex justify-center md:justify-start'>
               <NavLink
                 to="/#contactanos"
-                className={`${transitionBase} bg-opacity-0 text-secondary border-2 shadow-md shadow-secondary/10 border-secondary px-16 py-2 rounded-xl font-semibold hover:text-white hover:shadow-secondary/30 transition-all ease-in-out flex items-center w-fit text-base ${fadeInClass}`}
+                className={`${transitionBase} bg-opacity-0 text-xl text-secondary border-2 shadow-md shadow-secondary/10 border-secondary px-10 py-3 rounded-xl font-semibold hover:text-white hover:shadow-secondary/30 transition-all ease-in-out flex items-center w-fit   ${fadeInClass}`}
               >
                 Contáctanos
               </NavLink>
