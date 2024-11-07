@@ -38,19 +38,19 @@ function Navbar() {
       <div className="fixed top-0 left-0 w-full py-4 container-section bg-background lg:bg-custom-gradient z-[9999]">
         <div className="content-section flex justify-between items-center gap-0">
           {/* Columna del logo */}
-          <div className="flex items-center justify-start w-1/6">
+          <div className="flex items-center justify-start w-1/3 lg:w-1/6">
             <NavLink to="/" className="hidden lg:block">
               <img
                 src={logo}
-                alt="Logo Villacer"
-                className={`w-[84px] h-auto ${textStyles.fadeIn} ${isVisible ? "opacity-100" : "opacity-0"}`}
+                alt="Logo EHR"
+                className={`w-[110px] lg:w-[84px] h-auto ${textStyles.fadeIn} ${isVisible ? "opacity-100" : "opacity-0"}`}
               />
             </NavLink>
             <NavLink to="/" className="block lg:hidden">
               <img
                 src={logo2}
-                alt="Logo Villacer 2"
-                className={`h-auto ${textStyles.fadeIn} ${isVisible ? "opacity-100" : "opacity-0"}`}
+                alt="Logo EHR 2"
+                className={`w-[75px]  ${textStyles.fadeIn} ${isVisible ? "opacity-100" : "opacity-0"}`}
               />
             </NavLink>
           </div>
@@ -78,8 +78,8 @@ function Navbar() {
           </div>
 
           {/* Columna del botón de contacto */}
-          <div className="w-1/6 lg:flex justify-end items-center hidden">
-            <NavLink to="/#contactanos" className={`${textStyles.button} ${textStyles.fadeIn} ${isVisible ? "opacity-100" : "opacity-0"}`}>
+          <div className="w-1/6 lg:flex justify-end items-center hidden ">
+            <NavLink to="/#contactanos" className={`${textStyles.button} ${textStyles.fadeIn} ${isVisible  ? "opacity-100" : "opacity-0"}`}>
               Contáctanos
             </NavLink>
           </div>

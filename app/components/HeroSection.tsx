@@ -41,7 +41,7 @@ function HeroSection() {
             <p className={`${transitionBase} ${fadeInClass} text-[14px] md:text-[16px] font-normal text-background`}>
               Bienvenido a Estructura HR
             </p>
-            <p className={`${transitionBase} ${fadeInClass} text-[31px] md:text-[38px] lg:text-[43px] xl:text-[49px] font-normal leading-[38px] md:leading-[60px] lg:leading-[73.5px] text-background mb-1`}>
+            <p className={`${transitionBase} ${fadeInClass} text-[36px] md:text-[38px] lg:text-[43px] xl:text-[49px] font-normal leading-[43px] md:leading-[60px] lg:leading-[73.5px] text-background mb-1`}>
               Tu socio estratégico
               <br />
               en soluciones de
@@ -56,7 +56,7 @@ function HeroSection() {
             <div className='flex justify-center md:justify-start'>
               <NavLink
                 to="/#contactanos"
-                className={`${transitionBase} bg-opacity-0 text-secondary border-2 shadow-md shadow-secondary/10 border-secondary px-8 py-2 rounded-xl font-normal hover:text-white hover:shadow-secondary/30 transition-all ease-in-out flex items-center w-fit ${fadeInClass}`}
+                className={`${transitionBase} bg-opacity-0 text-secondary border-2 shadow-md shadow-secondary/10 border-secondary px-16 py-2 rounded-xl font-semibold hover:text-white hover:shadow-secondary/30 transition-all ease-in-out flex items-center w-fit text-base ${fadeInClass}`}
               >
                 Contáctanos
               </NavLink>
