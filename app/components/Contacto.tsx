@@ -71,10 +71,11 @@ const ContactForm: React.FC = () => {
       <div className='content-section'>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="hidden lg:flex flex-col justify-center pr-12 ">
-            <p className="text-md mb-2">
+            <p className="text-[19px] mb-2">
               Estamos aquí para ayudarte. Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
             </p>
-            <p className="text-lg mb-8">Informes@ehr.com.pe</p>
+            <p className="text-base mb-2">994 037 392</p>
+            <p className="text-base mb-8">Informes@ehr.com.pe</p>
             <img
               src={contacto}
               alt="Contacto"
@@ -90,9 +91,11 @@ const ContactForm: React.FC = () => {
           <div className="p-0 lg:pb-8 rounded-lg">
             <h2 className="text-2xl lg:text-4xl font-medium mb-6 text-center">Contáctanos</h2>
             <div className='block lg:hidden mb-8'>
-              <p className="text-sm mb-8 text-center lg:text-left">
+              <p className="text-md mb-4 text-left lg:text-left">
                 Estamos aquí para ayudarte. Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
               </p>
+              <p className="text-sm mb-2">Informes@ehr.com.pe</p>
+              <p className="text-sm mb-8">994 037 392</p>
               <img
                 src={contacto}
                 alt="Contacto"

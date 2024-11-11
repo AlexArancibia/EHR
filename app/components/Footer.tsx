@@ -11,17 +11,21 @@ function Footer() {
           <div className="flex flex-col items-start mb-4 lg:mb-0 w-full lg:w-1/4">
             <img src={logo} alt="Logo" className="mb-4" /> {/* Ajusta la altura del logo según sea necesario */}
 
-            <div className="flex space-x-4 mt-2 mb-8 w-full lg:w-1/4">
-              <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+            <div className="flex space-x-4 mt-2 mb-4 w-full lg:w-1/4">
+              <a href="https://www.facebook.com/estructurahr" className="text-white hover:text-gray-300 transition duration-300">
                 <FaFacebook size={18} />
               </a>
-              <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+              <a href="https://www.linkedin.com/company/estructura-hr/?originalSubdomain=pe" className="text-white hover:text-gray-300 transition duration-300">
                 <FaLinkedin size={18} />
               </a>
-              <a href="#" className="text-white hover:text-gray-300 transition duration-300">
+              <a href="https://www.wa.me/51994037392" className="text-white hover:text-gray-300 transition duration-300">
                 <FaWhatsapp size={18} />
               </a>
             </div>
+
+            <a  href="https://www.google.com.pe/maps/place/Av.+Circunvalaci%C3%B3n+del+Golf+los+Incas+206,+Santiago+de+Surco+15023/@-12.0777695,-76.9588513,17z/data=!4m16!1m9!3m8!1s0x9105c6fea1c24223:0x5227f0ef13ab3c44!2sAv.+Circunvalaci%C3%B3n+del+Golf+los+Incas+206,+Santiago+de+Surco+15023!3b1!8m2!3d-12.0778496!4d-76.958809!10e5!16s%2Fg%2F11fn4l344z!3m5!1s0x9105c6fea1c24223:0x5227f0ef13ab3c44!8m2!3d-12.0778496!4d-76.958809!16s%2Fg%2F11fn4l344z?hl=es-419&entry=ttu&g_ep=EgoyMDI0MTEwNS4wIKXMDSoASAFQAw%3D%3D" className="text-white hover:text-gray-300 transition duration-300 pr-6">
+            Av. Circunvalación del Golf los Incas 206,<br /> Lima, PE.
+              </a>
           </div>
 
           <div className="flex flex-col items-start mb-8 lg:mb-0 w-full lg:w-1/4  gap-4 ">
@@ -47,7 +51,7 @@ function Footer() {
 
       {/* Botón flotante de WhatsApp */}
       <a 
-        href="https://wa.me/123456789" // Reemplaza con tu número de WhatsApp
+        href="https://wa.me/51994037392" // Reemplaza con tu número de WhatsApp
         className="fixed bottom-6 right-6 z-[9999] bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
