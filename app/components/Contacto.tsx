@@ -107,7 +107,7 @@ const ContactForm: React.FC = () => {
       <div className="flex items-center space-x-2">
         <FaEnvelope className="text-primary" />
         <a href="mailto:Informes@ehr.com.pe" className="text-base text-primary hover:underline">
-          Informes@ehr.com.pe
+        plataforma@ehr.com.pe
         </a>
       </div>
       <div className="flex items-center space-x-2">
