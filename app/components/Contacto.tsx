@@ -225,11 +225,11 @@ const ContactForm: React.FC = () => {
                   className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-primary transition duration-300 hover:border-primary"
                 >
                   <option value="">Selecciona un servicio</option>
-                  <option value="outsourcing-nomina">Outsourcing de Procesos</option>
-                  <option value="outsourcing-contable">Outsourcing de Tecnología</option>
-                  <option value="outsourcing-administrativo">Outsourcing Administrativo/Financiero</option>
-                  <option value="outsourcing-legal">Outsourcing Comercial</option>
-                  <option value="outsourcing-fiscal">Outsourcing Industrial</option>
+                  <option value="outsourcing-procesos">Outsourcing de Procesos</option>
+                  <option value="outsourcing-tecnologia">Outsourcing de Tecnología</option>
+                  <option value="outsourcing-administrativo-financiero">Outsourcing Administrativo/Financiero</option>
+                  <option value="outsourcing-comercial">Outsourcing Comercial</option>
+                  <option value="outsourcing-industrial">Outsourcing Industrial</option>
                 </select>
               </div>
 
