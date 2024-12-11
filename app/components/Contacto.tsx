@@ -100,7 +100,7 @@ const ContactForm: React.FC = () => {
     <div className="contact-info space-y-4 mb-8 mt-4">
       <div className="flex items-center space-x-2">
         <FaPhoneAlt className="text-primary" />
-        <a href="tel:994037392" className="text-base text-primary hover:underline">
+        <a href="tel:51994037392" className="text-base text-primary hover:underline">
           994 037 392
         </a>
       </div>
