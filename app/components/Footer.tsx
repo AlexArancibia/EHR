@@ -51,7 +51,7 @@ function Footer() {
 
       {/* Botón flotante de WhatsApp */}
       <a 
-        href="wa.me/51994037392" // Reemplaza con tu número de WhatsApp
+        href="https://wa.me/51994037392" // Reemplaza con tu número de WhatsApp
         className="fixed bottom-6 right-6 z-[9999] bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
         target="_blank"
         rel="noopener noreferrer"
